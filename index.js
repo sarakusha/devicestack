@@ -27,13 +27,13 @@ index.addAdditionalFormatForValidationSchemas = function(ref, fn) {
 };
 
 
-try {
-  index.FtdiDevice = require('./lib/ftdi/device');
-  index.FtdiDeviceLoader = require('./lib/ftdi/deviceloader');
-  index.EventedFtdiDeviceLoader = require('./lib/ftdi/eventeddeviceloader');
-} catch(e) {
-  console.log(e.message);
-}
+// try {
+//   index.FtdiDevice = require('./lib/ftdi/device');
+//   index.FtdiDeviceLoader = require('./lib/ftdi/deviceloader');
+//   index.EventedFtdiDeviceLoader = require('./lib/ftdi/eventeddeviceloader');
+// } catch(e) {
+//   console.log(e.message);
+// }
 
 try {
   index.SerialDevice = require('./lib/serial/device');
@@ -44,11 +44,11 @@ try {
   console.log(e.message);
 }
 
-try {
-  index.FtdiSerialDevice = require('./lib/ftdiserial/device');
-} catch(e) {
-  console.log(e.message);
-}
+// try {
+//   index.FtdiSerialDevice = require('./lib/ftdiserial/device');
+// } catch(e) {
+//   console.log(e.message);
+// }
 
 try {
   index.UsbDeviceLoader = require('./lib/usb/deviceloader');
