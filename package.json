@@ -18,7 +18,7 @@
     "eventemitter2": "=0.4.x",
     "lodash": "3.10.x",
     "node-uuid": "1.4.x",
-    "serialport": "2.0.x",
+    "serialport": "git://github.com/sarakusha/node-serialport#fix-linux-list",
     "tv4": "=1.2.x",
     "usb-detection": "1.3.x"
   },
