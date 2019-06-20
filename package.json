@@ -20,7 +20,7 @@
     "node-uuid": "1.4.x",
     "serialport": "git://github.com/sarakusha/node-serialport#fix-linux-list",
     "tv4": "=1.2.x",
-    "usb-detection": "git://github.com/sarakusha/node-usb-detection.git#fix_linux_nonblocking"
+    "usb-detection": "^4.3.0"
   },
   "devDependencies": {
     "mocha": ">=1.0.1",
